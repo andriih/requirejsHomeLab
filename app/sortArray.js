@@ -1,8 +1,6 @@
 
-define(['numbersArray'],function (numbersArray) {
-    function sortedArray(){
-    		var arrNew = numbersArray.arr;
-    		console.log(arrNew);
+define([],function () {
+    function sortedArray(arrNew){
 			   var len = arrNew.length;
 			   for (var i = len-1; i>=0; i--){
 			     for(var j = 1; j<=i; j++){
